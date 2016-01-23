@@ -14,8 +14,8 @@ use Behat\Behat\Context\BehatContext,
 
  class FeatureContext extends BehatContext {
      protected $calculator;
-       private $result;
-       private $numbers;
+     protected $result;
+     protected $numbers;
 
      public function __construct() {
         $this->calculator = new Calculator();
